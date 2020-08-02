@@ -458,6 +458,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IUsbRestrict</name>
             <instance>default</instance>
         </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.dolby.hardware.dms</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
