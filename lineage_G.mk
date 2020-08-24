@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := G
 PRODUCT_NAME := lineage_G
-PRODUCT_BRAND := 10
+PRODUCT_BRAND := 10or
 PRODUCT_MODEL := G
 PRODUCT_MANUFACTURER := 10or
 TARGET_VENDOR := 10or
@@ -36,7 +36,9 @@ BOARD_VENDOR := 10or
 PRODUCT_GMS_CLIENTID_BASE := android-10or
 TARGET_VENDOR := 10or
 TARGET_VENDOR_PRODUCT_NAME := G
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="G-user 8.1.0 OPM1.171019.019 10or_G_V1_0_82 release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := 10or/G/G:8.1.0/OPM1.171019.019/10or_G_V1_0_82:user/release-keys
+BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys"
