@@ -18,9 +18,9 @@
 set -e
 
 # Required!
-export DEVICE=mido
+export DEVICE=G
 export DEVICE_COMMON=msm8953-common
-export VENDOR=xiaomi
+export VENDOR=10or
 
 export DEVICE_BRINGUP_YEAR=2017
 
