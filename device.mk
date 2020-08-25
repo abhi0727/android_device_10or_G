@@ -36,19 +36,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
-# Consumerir
-PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.xiaomi_mido
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
-
 # Properties
 -include $(LOCAL_PATH)/prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.mido.rc \
+    init.g.rc \
     init.goodix.sh
 
 # Sensors
@@ -57,4 +50,4 @@ PRODUCT_COPY_FILES += \
 
 # Lineage hardware
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi_8953
+    vendor.lineage.touch@1.0-service.10or_8953
