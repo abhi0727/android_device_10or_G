@@ -44,6 +44,10 @@ PRODUCT_PACKAGES += \
     init.g.rc \
     init.goodix.sh
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    GParts
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
