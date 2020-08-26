@@ -25,3 +25,5 @@ ifneq (,$(filter $(MM_V4L2_DRIVER_LIST),$(TARGET_BOARD_PLATFORM)))
     endif
   endif
 endif
+
+include $(CLEAR_VARS) LOCAL_SRC_FILES := \	CameraParameters.cpp LOCAL_MODULE := libcamera_shimLOCAL_MODULE_TAGS := optionalLOCAL_MODULE_CLASS := SHARED_LIBRARIESLOCAL_32_BIT_ONLY := trueLOCAL_VENDOR_MODULE := true include $(BUILD_SHARED_LIBRARY)
