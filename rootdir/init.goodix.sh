@@ -1,6 +1,5 @@
 #! /vendor/bin/sh
-
-# Copyright (c) 2009-2016, The Linux Foundation. All rights reserved.
+ # Copyright (c) 2009-2016, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -27,6 +26,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-if [ ! -f /data/system/users/0/settings_fingerprint.xml ]; then
+ if [ ! -f /data/system/users/0/settings_fingerprint.xml ]; then
     rm -rf /persist/data/gxfp/0_0
 fi

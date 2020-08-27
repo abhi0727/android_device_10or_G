@@ -4,3 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.voicerec=false \
     ro.vendor.audio.sdk.fluencetype=fluence
+
+#FP
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fingerprint.cleanup.unused=false
