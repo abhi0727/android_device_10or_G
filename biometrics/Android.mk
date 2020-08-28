@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := android.hardware.biometrics.fingerprint@2.0-service.xiaomi_oxygen
-LOCAL_INIT_RC := android.hardware.biometrics.fingerprint@2.0-service.xiaomi_oxygen.rc
+LOCAL_MODULE := android.hardware.biometrics.fingerprint@2.0-service.10or_g
+LOCAL_INIT_RC := android.hardware.biometrics.fingerprint@2.0-service.10or_g.rc
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := \

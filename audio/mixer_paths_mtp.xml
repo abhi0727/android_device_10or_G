@@ -939,6 +939,10 @@
         <path name="incall_music_uplink2" />
     </path>
 
+     <path name="hph-lowpower-mode"> 
+<ctl name="RX HPH Mode" value="CLS_H_LOHIFI" /> 
+</path>
+
     <path name="incall_music_uplink2 afe-proxy">
         <path name="incall_music_uplink2" />
     </path>
