@@ -14,9 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aim_mido.mk
-
-COMMON_LUNCH_CHOICES := \
-    aim_mido-user \
-    aim_mido-userdebug \
-    aim_mido-eng
+    $(LOCAL_DIR)/rr_mido.mk
